@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.chapter-num {
+  font-style: italic;
+}
+
+h1 {
+  display: inline-block;
+}
+
+article {
+  font-family: "Libre Baskerville", serif;
+  max-width: 47em;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 1.5rem
+}
+
+p {
+  text-indent: 30px;
+}
+
+header + p::first-line {
+  font-style: italic;
+  color: #259f95;
+}
+
+header + p {
+  text-indent: 0;
+}
+
+footer {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+
+
+
+Text sizes: 1.5rem, 1rem, 0.75rem
+Colours: #259f95, #1e7c74, #222
+Margin, padding & line-height: 1.5
+Maximum width: 47em
