@@ -8,36 +8,64 @@ html {
 
 body {
   margin: 0;
+  text-align: center;
 }
 
 img {
   display: block;
   width: 100%;
+  border: 2px solid #1e7c74;
+  border-radius: 8px;
+  margin: 1.5rem;
 }
 
 .chapter-num {
+  display: block;
   font-style: italic;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.colon {
+  display: none;
 }
 
 h1 {
   display: inline-block;
+  font-size: 1.5rem;
 }
 
 article {
+  display: inline-block;
   font-family: "Libre Baskerville", serif;
   max-width: 47em;
   font-size: 1rem;
   line-height: 1.5rem;
-  margin: 1.5rem
+  color: #222;
+  text-align: left;
 }
 
 p {
-  text-indent: 30px;
+  display: block;
+  text-indent: 20px;
+  margin: 0;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+header {
+  background-color: #259f95;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  border: 1px solid #1e7c74
 }
 
 header + p::first-line {
   font-style: italic;
-  color: #259f95;
+  color: #1e7c74;
 }
 
 header + p {
@@ -47,6 +75,14 @@ header + p {
 footer {
   font-size: 0.75rem;
   text-align: center;
+  font-style: italic;
+  background-color: #259f95;
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 5px;
+  margin-bottom: -30px;
+  margin-top: 20px;
+  border: 1px solid #1e7c74
 }
 
 
